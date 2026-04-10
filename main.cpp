@@ -2,10 +2,15 @@
 #include <typeinfo>
 #include "LinearEquation.h"
 #include "QuadraticEquation.h"
+#include <windows.h>
 
 using namespace std;
 
 int main() {
+
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+
     const int ARRAY_SIZE = 4;
     Equation* equations[ARRAY_SIZE];
 
